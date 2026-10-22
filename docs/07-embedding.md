@@ -38,6 +38,7 @@ default. Select and authorize a remote model explicitly with `zg --index`.
 | Fast multilingual document retrieval | `local/potion-multilingual-128m` | Static model trained for 101 languages with compact 256-dimensional vectors |
 | A Transformer model specialized for code | `local/jina-embeddings-v2-base-code` | Code-oriented, multilingual, and long-context |
 | General multilingual code and documents | `local/embeddinggemma-300m` | Broad language coverage in a local GGUF model |
+| Best general multilingual text and code quality | `local/embeddinggemma-2` | 768-dimensional EmbeddingGemma 2 GGUF with an 8,192-token context |
 | A smaller multilingual model | `local/multilingual-e5-small` | Compact 384-dimensional Transformer model |
 | A lightweight English model | `local/all-minilm-l6-v2` | Small local model for short English text |
 | Long English documents | `local/gte-modernbert-base` or `local/nomic-embed-text-v1.5` | 8,192-token local context |
@@ -65,6 +66,7 @@ file.
 | `local/gte-modernbert-base` | ONNX Q4 | 8,192 | 768 |
 | `local/nomic-embed-text-v1.5` | ONNX Q4 | 8,192 | 768 |
 | `local/embeddinggemma-300m` | GGUF Q8_0 | 2,048 | 768 |
+| `local/embeddinggemma-2` | GGUF Q8_0 | 8,192 | 768 |
 | `local/qwen3-embedding-0.6b` | GGUF Q8_0 | 8,192 | 1,024 |
 | `qwen/text-embedding-v4` | Remote text | 8,192 | 1,024 |
 | `qwen/qwen3.7-text-embedding` | Remote text | 128,000 | 1,024 |
